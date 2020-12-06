@@ -1,0 +1,81 @@
+.resume{
+    width: 100%;
+    height: auto;
+    background-color: gray;
+    text-align: center;
+    padding-top: .5%;
+}
+.resume_file{
+    width: 75%;
+    height: 650px;
+    margin-left: 12.5%;
+}
+.resume_file embed{
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.resume h1{
+    width: 60%;
+    background-color: black;
+    color: antiquewhite;
+    margin-left:20% ;
+    margin-bottom: .5%;
+    padding: 15px;
+    border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+.resume button{
+    margin: .5% 0 1% 0;
+    padding: 1%;
+    font-weight: 600;
+    border-radius: 15px;
+    transition: all .20s;
+    box-shadow: 0 0 25px 20px rgba(116, 102, 102, 0.404);
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    -webkit-transition: all .20s;
+    -moz-transition: all .20s;
+    -ms-transition: all .20s;
+    -o-transition: all .20s;
+}
+.resume button:hover{
+    transform: scale(.9);
+    transition: all .20s;
+    -webkit-transform: scale(.9);
+    -moz-transform: scale(.9);
+    -ms-transform: scale(.9);
+    -o-transform: scale(.9);
+    -webkit-transition: all .20s;
+    -moz-transition: all .20s;
+    -ms-transition: all .20s;
+    -o-transition: all .20s;
+}
+
+/*responsive*/
+
+@media screen and (max-width:800px){
+    .resume h1{
+        width: 100%;
+        margin-left: 0;
+        margin-bottom: 1%;
+    }
+    .resume_file {
+        width: 100%;
+        margin: 0;
+    }
+    .resume button{
+        padding: 2.5% 9% 2.5% 9%;
+    }
+}
+@media screen and (max-width:500px){
+.resume_file{
+    display: none;
+}
+}
